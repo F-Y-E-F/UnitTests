@@ -4,13 +4,6 @@ object RegistrationUtil {
 
     private val existingUsers = listOf<String>("Peter","Carl")
 
-    /**
-     * username empty,
-     * username taken,
-     * the confirmed password is not the same as password
-     * the password contains less than 2 digits
-     */
-
     fun validateRegistrationInput(
         username: String,
         password: String,
